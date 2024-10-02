@@ -1,0 +1,44 @@
+/* 
+ * File Name: Services.css
+ * Student Name: Renzel Taganas
+ * Student ID: 301403038
+ * Date: September 29, 2024
+ * Description: Styles for the Services page, including list styles for the offered services and container layout.
+ */
+
+/* Services Container Styling */
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Section: Services Heading */
+.services h1 {
+  font-size: 3rem;
+  color: #bb86fc;
+  margin-bottom: 30px;
+}
+
+/* Section: Services List Styling */
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual Service Items */
+.services li {
+  background-color: #333333;
+  color: #e0e0e0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.
+}

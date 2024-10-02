@@ -1,0 +1,46 @@
+/* 
+ * File Name: About.css
+ * Student Name: Renzel Taganas
+ * Student ID: 301403038
+ * Date: September 29, 2024
+ * Description: Styles for the About page, including layout, image, and button styles.
+ */
+
+ .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 3rem;
+  color: #bb86fc;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.download-button {
+  background-color: #bb86fc;
+  color: #121212;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.download-button:hover {
+  background-color: #985eff;
+}

@@ -1,0 +1,72 @@
+/* 
+ * File Name: Projects.css
+ * Student Name: Renzel Taganas
+ * Student ID: 301403038
+ * Date: September 29, 2024
+ * Description: Styling for the Projects page, including layout and hover effects for project cards.
+ */
+
+/* General Container Styling */
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+/* Section: Projects Heading */
+.projects h1 {
+  font-size: 3rem;
+  color: #bb86fc;
+  margin-bottom: 30px;
+}
+
+/* Section: Project Gallery */
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Section: Project Card Styles */
+.project-card {
+  background-color: #333333;
+  color: #e0e0e0;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Section: Project Card Hover Effect */
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Section: Project Image Styles */
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+/* Section: Project Text Styles */
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #cfcfcf;
+}

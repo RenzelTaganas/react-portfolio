@@ -1,0 +1,41 @@
+/* 
+ * File Name: Home.css
+ * Student Name: Renzel Taganas
+ * Student ID: 301403038
+ * Date: September 29, 2024
+ * Description: Styles for the Home page, including layout and button styling.
+ */
+
+ .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+  color: #bb86fc;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.home button {
+  background-color: #bb86fc;
+  color: #121212;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.home button:hover {
+  background-color: #985eff;
+}

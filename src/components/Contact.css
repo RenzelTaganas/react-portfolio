@@ -1,0 +1,58 @@
+/* 
+ * File Name: Contact.css
+ * Student Name: Renzel Taganas
+ * Student ID: 301403038
+ * Date: September 29, 2024
+ * Description: Styles for the Contact page, including form layout and input field styling.
+ */
+
+/* Contact Container Styling */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Section: Contact Heading */
+.contact h1 {
+  font-size: 3rem;
+  color: #bb86fc;
+  margin-bottom: 30px;
+}
+
+/* Contact Form Styling */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+/* Section: Input and Textarea Styling */
+.contact input,
+.contact textarea {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border: 2px solid #333;
+  padding: 12px;
+  border-radius: 5px;
+  resize: none;
+}
+
+/* Button Styling */
+.contact button {
+  background-color: #bb86fc;
+  color: #121212;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #985eff;
+}
